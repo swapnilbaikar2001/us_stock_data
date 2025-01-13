@@ -3,7 +3,10 @@ The script is used to fetch 10k+ US stocks 1 min snapshot data using Alpaca Pape
 It fetches 1 min candles,generates 5 min candles from them and store it in database.
 It also fetches EOD (1 day interval)data.
 It includes stocks from NASDAQ,NYSE,AMEX and NYSE ARCA and also includes highly traded ETFs like SPY,QQQ.
+
+
 Before running this script:
+
 1.Make sure to change database names according to your requirement.
 
 2.Create Alpaca trading account(https://app.alpaca.markets/signup)(only Email verification needed for paper trading) and generate Paper trading API and secret key for stock data.
