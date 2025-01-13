@@ -9,7 +9,7 @@ Before running this script:
 
 1.Make sure to change database names according to your requirement.
 
-2.Create Alpaca trading account(https://app.alpaca.markets/signup)(only Email verification needed for paper trading) and generate Paper trading API and secret key for stock data.
+2.Create Alpaca trading account( https://app.alpaca.markets/signup )(only Email verification needed for paper trading) and generate Paper trading API and secret key for stock data.
 and paste them in usEquity.py
 
 3.Create polygon account ( https://polygon.io/ )(only email verfication) for using holiday API,generate API key and paste it in usa_holidays.py
