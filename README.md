@@ -5,11 +5,16 @@ It also fetches EOD (1 day interval)data.
 It includes stocks from NASDAQ,NYSE,AMEX and NYSE ARCA and also includes highly traded ETFs like SPY,QQQ.
 Before running this script:
 1.Make sure to change database names according to your requirement.
+
 2.Create Alpaca trading account(https://app.alpaca.markets/signup)(only Email verification needed for paper trading) and generate Paper trading API and secret key for stock data.
 and paste them in usEquity.py
+
 3.Create polygon account ( https://polygon.io/ )(only email verfication) for using holiday API,generate API key and paste it in usa_holidays.py
+
 4.Make sure MySQL is installed properly and make changes in connect_mariaDB() function according to your config.
-4.Run usa_holidays.py to make sure the script will skip fetching data on US market Holidays.
+
+5.Run usa_holidays.py to make sure the script will skip fetching data on US market Holidays.
+
 
                                                                           usEquity.py
          Description  :      This script is used to fetch US stocks intraday and eod data using alpaca paper trading API(15 min delayed data)
